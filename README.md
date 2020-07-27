@@ -9,8 +9,8 @@
 
 ###### If Cells(i - 1, 1).Value <> tickers(tickerIndex) And Cells(i, 1).Value = tickers(tickerIndex) Then tickerStartingPrices(tickerIndex) = Cells(i, 6).Value as well as If Cells(i + 1, 1).Value <> tickers(tickerIndex) And Cells(i, 1).Value = tickers(tickerIndex) Then tickerEndingPrices(tickerIndex) = Cells(i, 6).Value.
 
-#### Having ran the original and defactored coded, we can spot a decrease in execution time down to 0.125 seconds. We can also see that the return on most stocks went down, even though their Total Daily Value has gone up between 2017 and 2018. 
+#### Having ran the original and defactored codes, we can spot a decrease in execution time down to 0.125 seconds. We can also see that the return on most stocks went down, even though some of their Total Daily Value has gone up between 2017 and 2018. 
 
 ## Summary
 
-#### Refactoring code has its own advantages and disadvantages. A refactored code seems to work faster and appears more organized and understandable, with lots of comments. The main problem with defactoring is how time-consuming the process is. It almost felt like it would have been faster to build a completely fresh code, from ground up. IT is also worth mentioning about the process of defactoring is debugging the original code, which is also very important.
+#### Refactoring code has its own advantages and disadvantages. A refactored code seems to work faster and appears more organized and understandable, with lots of comments. The main problem with defactoring is how time-consuming the process is. It almost felt like it would have been faster to build a completely fresh code, from ground up. What is also worth mentioning about the process of defactoring is debugging the original code, which is also very important.
